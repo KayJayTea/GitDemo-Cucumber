@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="33" started-at="2019-06-05T18:50:13Z" finished-at="2019-06-05T18:50:13Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="33" started-at="2019-06-05T18:50:13Z" finished-at="2019-06-05T18:50:13Z">
+      <class name="kristesting.SeleniumTest">
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:kristesting.SeleniumTest@69d9c55]" name="elementsUI" duration-ms="1" started-at="2019-06-05T18:50:13Z" finished-at="2019-06-05T18:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:kristesting.SeleniumTest@69d9c55]" name="BrowserAutomation" duration-ms="0" started-at="2019-06-05T18:50:13Z" finished-at="2019-06-05T18:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+      </class> <!-- kristesting.SeleniumTest -->
+      <class name="kristesting.RESTAPITest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:kristesting.RESTAPITest@7f560810]" name="deleteTwitter" duration-ms="0" started-at="2019-06-05T18:50:13Z" finished-at="2019-06-05T18:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:kristesting.RESTAPITest@7f560810]" name="postJira" duration-ms="0" started-at="2019-06-05T18:50:13Z" finished-at="2019-06-05T18:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- kristesting.RESTAPITest -->
+      <class name="kristesting.AppiumTest">
+        <test-method status="PASS" signature="IOSApps()[pri:0, instance:kristesting.AppiumTest@153f5a29]" name="IOSApps" duration-ms="6" started-at="2019-06-05T18:50:13Z" finished-at="2019-06-05T18:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method status="PASS" signature="nativeAppAndroid()[pri:0, instance:kristesting.AppiumTest@153f5a29]" name="nativeAppAndroid" duration-ms="1" started-at="2019-06-05T18:50:13Z" finished-at="2019-06-05T18:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeAppAndroid -->
+      </class> <!-- kristesting.AppiumTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
