@@ -14,7 +14,15 @@ public class SeleniumTest {
 	
 	@Test
 	public void elementsUI() {
-		System.out.println("elementsUI");
+		System.out.println("elementsUI1");
+		System.out.println("elementsUI2");
+		System.out.println("elementsUI3");
+	
+	}
+	
+	@Test
+	public void elementsServer() {
+		System.out.println("elementsServer");
 		
 		// TODO
 	}
