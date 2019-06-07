@@ -26,4 +26,11 @@ public class SeleniumTest {
 		
 		// TODO
 	}
+	
+	@Test
+	public void elementsServer_2() {
+		System.out.println("elementsServer_2");
+		
+		// TODO
+	}
 }
