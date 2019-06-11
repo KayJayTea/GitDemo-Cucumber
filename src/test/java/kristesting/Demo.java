@@ -1,5 +1,10 @@
 package kristesting;
 
-public class Demo {
+import org.testng.annotations.Test;
 
+public class Demo {
+	@Test
+	public void Demo2() {
+		System.out.println("DEMO");
+	}
 }
